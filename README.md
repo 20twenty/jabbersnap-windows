@@ -22,11 +22,12 @@ The Mac app, and everything about Jabbersnap itself, lives at
 ## What you need
 
 - **Windows 10 (version 1709 or later) or Windows 11**, 64-bit.
-- **A Bluetooth 5 adapter.** Most PCs' built-in Bluetooth connects but
-  drops the audio. Any Bluetooth 5 USB dongle works (the TP-Link UB500,
-  for example); plug it in and disable the built-in adapter in Device
-  Manager. The program checks the adapter before it starts and tells you
-  if the one it found is too old.
+- **Bluetooth 4.2 or newer.** PCs made in the last several years usually
+  have it built in. The program checks the adapter when it starts and
+  tells you if yours is too old (older adapters connect but drop the
+  audio). If it is, any Bluetooth 5 USB dongle fixes it (the TP-Link
+  UB500, for example): plug it in and disable the built-in adapter in
+  Device Manager.
 - **A Groq API key**, from [console.groq.com](https://console.groq.com).
   Transcription runs on Groq's Whisper service under your own key; the
   free tier is plenty.
@@ -105,8 +106,10 @@ its folder. When reporting a problem, attach that file.
   computer (reset it as described under What you need). If Windows refuses
   to pair, add it from Settings › Bluetooth › Add device (it appears as
   "Jabbersnap"), then start the program.
-- **Audio comes back garbled or short.** The adapter is too old; see What
-  you need. The log says how much of the recording was lost.
+- **Audio comes back garbled or short.** The log says how much of the
+  recording was lost on the Bluetooth link and which adapter is in use;
+  an older adapter is the usual cause, and a Bluetooth 5 USB dongle fixes
+  it (see What you need).
 - **After a firmware update, Windows shows two "Jabbersnap" devices.** The
   old entry is harmless; remove it from Settings › Bluetooth if you like.
 
