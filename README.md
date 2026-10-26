@@ -38,7 +38,7 @@ available in ordinary installs.
 
 ## Installing
 
-1. Download **Jabbersnap-0.8.16-Setup.exe** from the
+1. Download **Jabbersnap-0.8.17-Setup.exe** from the
    [latest release](https://github.com/20twenty/jabbersnap-windows/releases/latest).
 2. Run the installer. It installs for your Windows account, adds a Start
    shortcut, and registers an entry in **Settings › Apps**.
@@ -85,8 +85,8 @@ Historical Lite releases remain available for reference.
    at sign-in; only one app can use the remote at a time.
 2. Copy your Groq key from `jabbersnap-lite.json` before deleting anything.
 3. Install the full app and add that key during setup. It does not import
-   Lite's settings file. A remote already paired to this PC can be adopted
-   without a reset; otherwise follow the app's pairing instructions.
+   Lite's settings file. Follow the app's pairing instructions to select and
+   confirm your remote, including one you already used on this PC.
 4. Review **Controls › Remote**. The full app has a different default
    button map: Button 2's hold is Undo, its tap pauses a tap-started
    recording, and Button 4's tap starts unassigned on Windows.
